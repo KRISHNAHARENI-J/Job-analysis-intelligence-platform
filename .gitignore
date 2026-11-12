@@ -1,0 +1,25 @@
+
+# Python virtual environment
+.venv/
+venv/
+.venv2/
+.venv3/
+.venv_rag/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Secret credentials
+.env
+.env1
+.streamlit/secrets.toml
+
+# IDE settings
+.vscode/
+.idea/
+.env*
+*.pem
+
+# Temporary files
+*.log

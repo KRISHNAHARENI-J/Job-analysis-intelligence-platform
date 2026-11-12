@@ -1,0 +1,122 @@
+{
+  "most_demanding_job_role": [
+    {
+      "role": "PROMPT ENGINEER",
+      "count": 4
+    },
+    {
+      "role": "DATA SCIENTIST",
+      "count": 3
+    },
+    {
+      "role": "DATA ANALYST",
+      "count": 2
+    },
+    {
+      "role": "ML ENGINEER",
+      "count": 1
+    },
+    {
+      "role": "OPERATIONAL RISK DATA ANALYST",
+      "count": 1
+    },
+    {
+      "role": "DATA SCIENCE ANALYST",
+      "count": 1
+    },
+    {
+      "role": "CLINICAL DATA SCIENTIST",
+      "count": 1
+    },
+    {
+      "role": "SENIOR  GROUP MANAGER-AI ENGINEER",
+      "count": 1
+    },
+    {
+      "role": "PROCESS ENGINEER-AI AUTOMATION AND BUSINESS PROCESS MANAGEMENT",
+      "count": 1
+    },
+    {
+      "role": "ONTOLOGY ENGINEER",
+      "count": 1
+    }
+  ],
+  "most_demanding_industry": [
+    {
+      "industry": "Other",
+      "count": 14
+    },
+    {
+      "industry": "Healthcare",
+      "count": 7
+    },
+    {
+      "industry": "Technology",
+      "count": 7
+    },
+    {
+      "industry": "Consulting",
+      "count": 2
+    },
+    {
+      "industry": "Manufacturing",
+      "count": 1
+    }
+  ],
+  "most_demanding_skills": [
+    {
+      "skill": "Develop intelligent algorithms",
+      "count": 1
+    },
+    {
+      "skill": "Create predictive models",
+      "count": 1
+    },
+    {
+      "skill": "CATIA V5 Electrical Harness Design",
+      "count": 1
+    },
+    {
+      "skill": "wiring harness routing",
+      "count": 1
+    },
+    {
+      "skill": "electrical schematics",
+      "count": 1
+    },
+    {
+      "skill": "connector selection",
+      "count": 1
+    },
+    {
+      "skill": "engineering documentation",
+      "count": 1
+    },
+    {
+      "skill": "Advancements in artificial intelligence",
+      "count": 1
+    },
+    {
+      "skill": "Computer vision",
+      "count": 1
+    },
+    {
+      "skill": "Sensor technology",
+      "count": 1
+    }
+  ],
+  "top_result": {
+    "job_role": {
+      "role": "PROMPT ENGINEER",
+      "count": 4
+    },
+    "industry": {
+      "industry": "Other",
+      "count": 14
+    },
+    "skill": {
+      "skill": "Develop intelligent algorithms",
+      "count": 1
+    }
+  }
+}
