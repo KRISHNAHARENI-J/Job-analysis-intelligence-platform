@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: job-market-api
+    runtime: python
+    buildCommand: pip install -r requirements-dashboard.txt
+    startCommand: uvicorn api:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: JOB_DATA_FILE
+        value: annotated_job_training_dataset.xlsx
+
+  - type: web
+    name: job-market-dashboard
+    runtime: python
+    buildCommand: pip install -r requirements-dashboard.txt
+    startCommand: streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true
+    envVars:
+      - key: API_BASE_URL
+        fromService:
+          type: web
+          name: job-market-api
+          property: host

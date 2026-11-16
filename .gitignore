@@ -19,7 +19,10 @@ __pycache__/
 .vscode/
 .idea/
 .env*
+!.env.example
 *.pem
 
 # Temporary files
 *.log
+.pytest_cache/
+.ruff_cache/

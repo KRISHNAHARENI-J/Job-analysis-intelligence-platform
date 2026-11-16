@@ -1,4 +1,6 @@
 streamlit
+fastapi
+uvicorn[standard]
 pandas
 matplotlib
 psycopg[binary]
@@ -7,3 +9,4 @@ openpyxl
 python-docx
 neo4j
 sentence-transformers
+scikit-learn
