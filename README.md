@@ -30,7 +30,7 @@ Copy-Item .env.example .env
 In the first terminal, start the API:
 
 ```powershell
-uvicorn api:app --reload
+uvicorn api:app --reload --host 127.0.0.1 --port 8001
 ```
 
 In a second terminal, start the Streamlit dashboard:
@@ -40,7 +40,7 @@ streamlit run app.py
 ```
 
 Open the Streamlit URL printed by the command. The API is available at
-`http://127.0.0.1:8000`; its interactive API documentation is at `/docs`.
+`http://127.0.0.1:8001`; its interactive API documentation is at `/docs`.
 
 Set `JOB_DATA_FILE` to a workbook path relative to the repository root or to an
 absolute path. The default is `annotated_job_training_dataset.xlsx`.

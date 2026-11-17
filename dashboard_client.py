@@ -5,13 +5,18 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
+from dotenv import load_dotenv
+
 
 class APIClientError(RuntimeError):
     pass
 
 
+load_dotenv()
+
+
 def _api_base_url() -> str:
-    configured = os.getenv("API_BASE_URL", "http://127.0.0.1:8000").strip().rstrip("/")
+    configured = os.getenv("API_BASE_URL", "http://127.0.0.1:8001").strip().rstrip("/")
     return configured if "://" in configured else f"https://{configured}"
 
 
